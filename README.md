@@ -1,29 +1,41 @@
-# 🚀 DeepFake Detective  
+# DeepFake Detective
 
-Hybrid AI system for detecting deepfake media using **CNN (spatial analysis)** and **FFT + ML (frequency analysis)**, with optional **Explainable AI** and **graph-based propagation analysis**.
-
----
-
-## 🧠 Core Idea  
-
-Input → CNN → spatial_score  
-      → FFT + ML → frequency_score  
-      → Fusion → Final Prediction  
-      → (Optional) XAI + Graph Analysis  
+A modular AI/ML project focused on detecting manipulated media using a combination of spatial and frequency-based analysis.
 
 ---
 
-## ⚙️ Modules  
+## Overview
 
-- CNN Model → image-based detection  
-- Frequency Model → FFT + ML classifier  
-- Fusion Engine → combines outputs  
-- XAI (Grad-CAM) → visualization  
-- Graph Module → BFS, DFS, A* for spread analysis  
+This project explores deepfake detection through two parallel approaches:
+
+- CNN-based image analysis to capture visual inconsistencies  
+- FFT-based feature extraction with a lightweight ML classifier  
+
+The outputs are combined to produce a final prediction, with scope for adding explainability and graph-based analysis.
 
 ---
 
-## 📂 Structure  
+## Pipeline
+
+Input  
+→ CNN model → spatial score  
+→ FFT + ML → frequency score  
+→ Fusion → final prediction  
+→ (optional) visualization and analysis  
+
+---
+
+## Modules
+
+- CNN Model — image-based detection  
+- Frequency Model — FFT + ML features  
+- Fusion — combines model outputs  
+- XAI (planned) — interpretability  
+- Graph Analysis (planned) — propagation logic  
+
+---
+
+## Structure
 
 models/  
 processing/  
@@ -34,18 +46,21 @@ algorithms/
 
 ---
 
-## 🧪 Tech Stack  
+## Tech Stack
 
 Python, TensorFlow, NumPy, Scikit-learn, Pandas  
 
 ---
 
-## 🚧 Status  
+## Team Work (Initial Split)
 
-Day 0 — Project setup & module planning  
+- CNN Model — model development and training  
+- Frequency Model — FFT processing and ML classifier  
+- Fusion & XAI — combining outputs and visualization  
+- Graph Analysis — search algorithms and data insights  
 
 ---
 
-## 👥 Team  
+## Status
 
-Modular development with clear ownership across AI, ML, XAI, and algorithms  
+Day 0 — initial setup and module planning  
