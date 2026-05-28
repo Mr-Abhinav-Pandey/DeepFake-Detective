@@ -63,4 +63,5 @@ Python, TensorFlow, NumPy, Scikit-learn, Pandas
 
 ## Status
 
-Day 0 — initial setup and module planning  
+Day 0 - initial setup and module planning
+Day 1 - uploaded the local files of 4 models and their fft+gradcam analysis
